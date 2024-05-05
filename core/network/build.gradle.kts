@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.me.network"
+    namespace = "com.abdulmohsen.network"
     compileSdk = 34
 
     buildFeatures {

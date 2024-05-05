@@ -1,4 +1,4 @@
-package com.me.common
+package com.abdulmohsen.common
 
 sealed class UiState<T>(val data: T? = null) {
     class Success<T>(data: T?) : UiState<T>(data)

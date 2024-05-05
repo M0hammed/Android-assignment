@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Android Assignment"
 include(":app")
+include(":core")
+include(":core:base")
  

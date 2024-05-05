@@ -2,6 +2,7 @@ package com.abdulmohsen.androidassignment.di
 
 import android.app.Application
 import com.abdulmohsen.androidassignment.MainApplication
+import com.abdulmohsen.details.di.UniversityDetailsComponent
 import com.abdulmohsen.local.di.LocalModule
 import com.abdulmohsen.network.di.NetworkModule
 import com.abdulmohsen.universities.di.UniversitiesComponent
@@ -13,6 +14,7 @@ import javax.inject.Singleton
 @Component(modules = [NetworkModule::class, LocalModule::class, AppSubComponentModule::class])
 interface AppComponent {
     fun getUniversitiesComponentFactory(): UniversitiesComponent.Factory
+    fun getUniversityDetailsComponentFactory(): UniversityDetailsComponent.Factory
 
     @Component.Builder
     interface Builder {

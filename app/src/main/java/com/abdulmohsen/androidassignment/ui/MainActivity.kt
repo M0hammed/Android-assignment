@@ -1,4 +1,4 @@
-package com.abdulmohsen.androidassignment
+package com.abdulmohsen.androidassignment.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
